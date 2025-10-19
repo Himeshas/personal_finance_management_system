@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import { Home, DollarSign, TrendingUp, PieChart, Settings, Menu, X } from 'lucide-react';
-import Dashboard from './Dashboard';
-import Expenses from './Expenses';
-import Budget from './Budget';
-import Savings from './Savings';
-import Reports from './Reports';
-import Settings_comp from './Settings_comp';
+import Dashboard from './components/Dashboard';
+import Expenses from './components/Expenses';
+import Budget from './components/Budget';
+import Savings from './components/Savings';
+import Reports from './components/Reports';
+import Settings_comp from './components/Settings_comp';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState('dashboard');
