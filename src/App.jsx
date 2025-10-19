@@ -5,7 +5,7 @@ import Expenses from './Expenses';
 import Budget from './Budget';
 import Savings from './Savings';
 import Reports from './Reports';
-import Settings from './Settings';
+import Settings_comp from './Settings_comp';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState('dashboard');

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Save, Database, RefreshCw, Shield, Bell, User, Download, Upload } from 'lucide-react';
 
-export default function Settings() {
+export default function Settings_comp() {
   const [settings, setSettings] = useState({
     name: 'John Doe',
     email: 'john.doe@example.com',
